@@ -25,7 +25,7 @@ namespace ConversorMonetario
             if (string.IsNullOrEmpty(txtValor.Text))
             {
                 MessageBox.Show("Não pode ser em branco");
-                Log.Add(LogType.error, LogSave.database, "Valor a ser convertido em branco");
+                Log.Add(LogType.error, LogSave.database, "Valor a ser convertido não pode branco");
             }
             else
             {
